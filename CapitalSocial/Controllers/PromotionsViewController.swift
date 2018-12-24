@@ -20,6 +20,12 @@ class PromotionsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpPromotions()
+        
+        self.navigationController?.navigationBar.isTranslucent = false
+        navigationController?.navigationBar.barTintColor = Colors.pinkColorCdmx
+
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+
     }
     
     /// Validates if a user is logged in or not and defines the flow of the App
@@ -37,6 +43,7 @@ class PromotionsViewController: UIViewController {
     
     @IBAction func logOut(_ sender: Any) {
         let _ = KeychainWrapper.standard.removeObject(forKey: "CapitalSocialUserToken")
+        goToLogInFlow()
     }
 }
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,14 +18,40 @@
                         <viewControllerLayoutGuide type="bottom" id="Wxs-Vd-8Yr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CapitalSocial" translatesAutoresizingMaskIntoConstraints="NO" id="KhT-pR-Ms8">
+                                <rect key="frame" x="82.5" y="308.5" width="249" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="249" id="alI-Ha-boA"/>
+                                    <constraint firstAttribute="height" constant="43" id="j09-3q-bLr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdMXWithLogo" translatesAutoresizingMaskIntoConstraints="NO" id="0CK-Mm-0Tg">
+                                <rect key="frame" x="132.5" y="380.5" width="149" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="149" id="PUb-jq-WfI"/>
+                                    <constraint firstAttribute="height" constant="31" id="lbZ-4X-mgt"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0CK-Mm-0Tg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0Da-tx-RHw"/>
+                            <constraint firstItem="KhT-pR-Ms8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bfD-cn-wG4"/>
+                            <constraint firstItem="0CK-Mm-0Tg" firstAttribute="top" secondItem="KhT-pR-Ms8" secondAttribute="bottom" constant="29" id="mAd-x7-EHx"/>
+                            <constraint firstItem="KhT-pR-Ms8" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-118" id="rj7-Ik-RuK"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CapitalSocial" width="2270" height="368"/>
+        <image name="cdMXWithLogo" width="1404" height="284"/>
+    </resources>
 </document>

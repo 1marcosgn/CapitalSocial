@@ -25,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="-1164" y="111"/>
         </scene>
-        <!--Promotions View Controller-->
+        <!--Capital Social-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="PromotionsViewController" customModule="CapitalSocial" customModuleProvider="target" sceneMemberID="viewController">
@@ -39,19 +39,19 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="niK-v4-lic">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cDs-fJ-7Cu">
-                                    <size key="itemSize" width="175" height="127"/>
+                                    <size key="itemSize" width="202" height="127"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CapitalCell" id="sX7-WX-bfD">
-                                        <rect key="frame" x="0.0" y="0.0" width="175" height="127"/>
+                                        <rect key="frame" x="86.5" y="0.0" width="202" height="127"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="175" height="127"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="202" height="127"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </view>
                                     </collectionViewCell>
@@ -64,19 +64,25 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="niK-v4-lic" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0fJ-oe-2ln"/>
                             <constraint firstAttribute="trailing" secondItem="niK-v4-lic" secondAttribute="trailing" id="39T-YW-nth"/>
                             <constraint firstItem="niK-v4-lic" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4ux-Sm-NEB"/>
+                            <constraint firstItem="Pby-Bm-tRe" firstAttribute="top" secondItem="niK-v4-lic" secondAttribute="bottom" id="BWa-ga-yOp"/>
+                            <constraint firstItem="niK-v4-lic" firstAttribute="top" secondItem="C1k-64-ZSq" secondAttribute="bottom" id="SNV-hC-e6c"/>
                             <constraint firstItem="niK-v4-lic" firstAttribute="top" secondItem="C1k-64-ZSq" secondAttribute="bottom" id="VCD-Ii-p0R"/>
+                            <constraint firstAttribute="trailing" secondItem="niK-v4-lic" secondAttribute="trailing" id="dhb-iD-oYY"/>
                             <constraint firstItem="Pby-Bm-tRe" firstAttribute="top" secondItem="niK-v4-lic" secondAttribute="bottom" id="uxd-uK-1Zz"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="vIz-NG-c4A">
-                        <barButtonItem key="leftBarButtonItem" title="logOut" id="ekb-Ue-nee">
+                    <navigationItem key="navigationItem" title="Capital Social" id="vIz-NG-c4A">
+                        <barButtonItem key="leftBarButtonItem" title="LogOut" id="ekb-Ue-nee">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="logOut:" destination="BYZ-38-t0r" id="fcO-yT-ufq"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="map" id="40Z-iw-hde">
+                        <barButtonItem key="rightBarButtonItem" title="Mapa" id="40Z-iw-hde">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="openMap:" destination="BYZ-38-t0r" id="nes-fF-yuH"/>
                             </connections>
@@ -91,4 +97,5 @@
             <point key="canvasLocation" x="-207.19999999999999" y="109.29535232383809"/>
         </scene>
     </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>

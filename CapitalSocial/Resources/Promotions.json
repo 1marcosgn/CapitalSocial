@@ -1,17 +1,67 @@
 {
+    "papajhons": {
+        "title": "Papa John's",
+        "imageUrl": "https://mediadc.brightspotcdn.com/dims4/default/3be8a66/2147483647/strip/true/crop/2290x1322+0+0/resize/2290x1322!/quality/90/?url=https%3A%2F%2Fmediadc.brightspotcdn.com%2Fc2%2Fa1%2F7bc76caca56a09c13f818de05e2f%2F9bef3f7ee06f5dc6a6cd8ce80be2771c.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    },
+    "ideaInterior": {
+        "title": "Idea Interior",
+        "imageUrl": "https://2.bp.blogspot.com/_gKQeWzIzN3c/TVVs3AT8CpI/AAAAAAAAABQ/7tVSZWvFS_E/s1600/Color+Scheme+Types+-+IDEA+INTERIOR+DESIGN+%25286%2529.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    },
+    "burgerKing": {
+        "title": "Burger King",
+        "imageUrl": "https://s.hdnux.com/photos/74/56/11/15917666/4/920x920.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    },
+    "farmaciabenavides": {
+        "title": "Farmacia Benavides",
+        "imageUrl": "https://directoriomedicomonterrey.com/images/farmacias/farmacias_benavides_monterrey_logo.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    },
+    "eltizoncito": {
+        "title": "El Tizoncito",
+        "imageUrl": "https://statics-directoriodehote.netdna-ssl.com/files/restaurantes/2681/R2_2681.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    },
+    "chilis": {
+        "title": "Chili's",
+        "imageUrl": "https://olocdn.global.ssl.fastly.net/menu/chilis/fc58f76682e6471be9bc43aaa2f0740a.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    },
+    "zonaFitness": {
+        "title": "Zona Fitness",
+        "imageUrl": "https://cdn.needish.com/is-prod-deals/DEdt6fj366tBlb3B70tUhg/scale/900x600.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    },
     "cinepolis": {
         "title": "Cinepolis",
-        "imageUrl": "https://user-images.githubusercontent.com/6865674/50037256-41f44300-ffc4-11e8-957d-4ac2254c4867.png",
+        "imageUrl": "https://az877327.vo.msecnd.net/~/media/images/references/2015/q1/cinepolis%20laser/cinepolistoreo_cafeycabaret%20jpg.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
     },
-    "burgerking": {
-        "title": "Burger King",
-        "imageUrl": "https://pbs.twimg.com/profile_images/683850520528859136/D-t-BWGz_400x400.jpg",
+    "chedraui": {
+        "title": "Chedraui",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Super_Chedraui_Isla_Mujeres.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
     },
-    "zonafitness": {
-        "title": "Zona Fitness",
-        "imageUrl": "https://cdn-ami-drupal.heartyhosting.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/media/campus-muscle-trainint-partner-4.jpg",
+    "tepetongo": {
+        "title": "Tepetongo",
+        "imageUrl": "http://chilpas.com/custom/domain_1/image_files/sitemgr_photo_3352.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    },
+    "laboratioriomedicopolanco": {
+        "title": "Laboratorio Médico",
+        "imageUrl": "https://propiedadescom.s3.amazonaws.com/files/600x400/calzada-de-las-aguilas-san-clemente-sur-alvaro-obregon-distrito-federal-5249437-foto-08.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    },
+    "icedome": {
+        "title": "ICEDOME",
+        "imageUrl": "http://www.icedome.com/img/portfolio/4.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    },
+    "dorothygaynor": {
+        "title": "Dorothy Gaynor",
+        "imageUrl": "http://loopa.com.mx/wp-content/uploads/2014/06/dorothy21.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
     }
 }
