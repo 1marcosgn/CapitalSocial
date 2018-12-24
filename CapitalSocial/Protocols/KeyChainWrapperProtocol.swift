@@ -7,23 +7,29 @@
 //
 
 import UIKit
+import SwiftKeychainWrapper
 
 public protocol KeyChainWrapperProtocol {
     /// Retrieves information from the keychain
-    func getInformation() -> [String: String]?
+    func getInformation() -> String?
 
     /// Updates the information in the keychain
     func updateInformation(_ token: String)
 }
 
 public extension KeyChainWrapperProtocol {
-    func getInformation() -> [String: String]? {
+    func getInformation() -> String? {
         // retrieves the token with the framework
-        return nil
+        let retrievedString: String? = KeychainWrapper.standard.string(forKey: "CapitalSocialUserToken")
+        return retrievedString
     }
     
     func updateInformation(_ token: String) {
         //update in the keychain with the framework
+        let saveSuccessful: Bool = KeychainWrapper.standard.set(token, forKey: "CapitalSocialUserToken")
+        if saveSuccessful {
+            print("all good")
+        }
     }
 }
 

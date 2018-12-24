@@ -19,12 +19,8 @@ public class ProfileManager: KeyChainWrapperProtocol {
     
     /// Validates if the user is logged in pr not
     public func retrieveUserStatus() -> UserStatus {
-        if let information = getInformation() {
-            if information["token"] != nil {
-                return .authenticated
-            } else {
-                return .nonAuthenticated
-            }
+        if getInformation() != nil {
+            return .authenticated
         } else {
             return .nonAuthenticated
         }
