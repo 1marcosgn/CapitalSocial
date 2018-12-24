@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7F16387921D1065F0076D3CA /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F16387821D1065E0076D3CA /* SDWebImage.framework */; };
 		7F16387B21D1077A0076D3CA /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F16387A21D1077A0076D3CA /* placeholder.png */; };
+		7F16387D21D15EAF0076D3CA /* QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F16387C21D15EAF0076D3CA /* QRCodeReader.framework */; };
 		7F66D99D21CF71FD006A75C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D99C21CF71FD006A75C9 /* AppDelegate.swift */; };
 		7F66D9A221CF71FD006A75C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66D9A021CF71FD006A75C9 /* Main.storyboard */; };
 		7F66D9A421CF71FE006A75C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F66D9A321CF71FE006A75C9 /* Assets.xcassets */; };
@@ -96,6 +97,7 @@
 /* Begin PBXFileReference section */
 		7F16387821D1065E0076D3CA /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 		7F16387A21D1077A0076D3CA /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		7F16387C21D15EAF0076D3CA /* QRCodeReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QRCodeReader.framework; path = Carthage/Build/iOS/QRCodeReader.framework; sourceTree = "<group>"; };
 		7F66D99921CF71FD006A75C9 /* CapitalSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapitalSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F66D99C21CF71FD006A75C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F66D9A121CF71FD006A75C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			files = (
 				7F7C2F4721D0CF5300859A34 /* SwiftKeychainWrapper.framework in Frameworks */,
 				7F16387921D1065F0076D3CA /* SDWebImage.framework in Frameworks */,
+				7F16387D21D15EAF0076D3CA /* QRCodeReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +308,7 @@
 		7F66DA0321D09230006A75C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7F16387C21D15EAF0076D3CA /* QRCodeReader.framework */,
 				7F16387821D1065E0076D3CA /* SDWebImage.framework */,
 				7F7C2F4621D0CF5300859A34 /* SwiftKeychainWrapper.framework */,
 			);
@@ -430,6 +434,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftKeychainWrapper.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/QRCodeReader.framework",
 			);
 			outputFileListPaths = (
 			);

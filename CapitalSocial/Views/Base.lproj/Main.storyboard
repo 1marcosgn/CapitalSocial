@@ -71,6 +71,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vIz-NG-c4A">
+                        <barButtonItem key="leftBarButtonItem" title="logOut" id="ekb-Ue-nee">
+                            <connections>
+                                <action selector="logOut:" destination="BYZ-38-t0r" id="fcO-yT-ufq"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="map" id="40Z-iw-hde">
                             <connections>
                                 <action selector="openMap:" destination="BYZ-38-t0r" id="nes-fF-yuH"/>

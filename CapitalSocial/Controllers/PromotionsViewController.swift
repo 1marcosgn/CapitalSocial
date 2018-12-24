@@ -8,6 +8,7 @@
 
 import UIKit
 import SDWebImage
+import SwiftKeychainWrapper
 
 class PromotionsViewController: UIViewController {
     
@@ -34,6 +35,9 @@ class PromotionsViewController: UIViewController {
         goToMap()
     }
     
+    @IBAction func logOut(_ sender: Any) {
+        let _ = KeychainWrapper.standard.removeObject(forKey: "CapitalSocialUserToken")
+    }
 }
 
 /// Extension to handle the Flow of the App
