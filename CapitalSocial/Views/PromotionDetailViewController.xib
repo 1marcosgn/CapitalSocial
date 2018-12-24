@@ -31,14 +31,6 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAo-Be-EX9">
-                    <rect key="frame" x="110" y="544" width="140" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="share"/>
-                    <connections>
-                        <action selector="share:" destination="-1" eventType="touchUpInside" id="WyA-HR-fm6"/>
-                    </connections>
-                </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zDL-BK-tCI">
                     <rect key="frame" x="60" y="75" width="240" height="128"/>
                     <constraints>
@@ -56,14 +48,27 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAo-Be-EX9">
+                    <rect key="frame" x="110" y="484" width="140" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="YyQ-nG-eiA"/>
+                    </constraints>
+                    <state key="normal" title="share"/>
+                    <connections>
+                        <action selector="share:" destination="-1" eventType="touchUpInside" id="WyA-HR-fm6"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="aAo-Be-EX9" secondAttribute="trailing" constant="125" id="1aB-UL-f8b"/>
+                <constraint firstItem="aAo-Be-EX9" firstAttribute="top" secondItem="WB8-3p-wwn" secondAttribute="bottom" constant="25" id="2GO-hb-v7y"/>
                 <constraint firstItem="Ldf-1g-jAh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-7.5" id="7bN-wL-clr"/>
                 <constraint firstItem="WB8-3p-wwn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8CF-XW-jlT"/>
                 <constraint firstItem="zDL-BK-tCI" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-194.5" id="VRx-T2-DNi"/>
                 <constraint firstItem="WB8-3p-wwn" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="61.5" id="biT-F9-NJB"/>
                 <constraint firstItem="zDL-BK-tCI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-7.5" id="cyW-2I-krM"/>
+                <constraint firstItem="aAo-Be-EX9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="110" id="fET-Jh-nc8"/>
                 <constraint firstItem="Ldf-1g-jAh" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-68.5" id="oNQ-rU-6xr"/>
             </constraints>
             <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
