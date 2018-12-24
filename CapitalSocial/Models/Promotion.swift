@@ -15,7 +15,7 @@ public class Promotion: PromotionProtocol {
     
     
     public init(information: [String: Any]) {
-        self.imageUrl = information["imageUrl"] as? URL
+        self.imageUrl = URL(string: information["imageUrl"] as? String ?? "")
         self.title = information["title"] as? String ?? ""
         self.description = information["description"] as? String ?? ""
     }

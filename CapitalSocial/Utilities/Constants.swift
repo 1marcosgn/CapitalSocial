@@ -20,6 +20,7 @@ public struct Constants {
     static let applicationJson = "application/json"
     static let contentType = "Content-Type"
     static let invalidParams = "Invalid Params"
+    static let locations = "Locations"
 }
 
 public struct ServiceEndPoints {

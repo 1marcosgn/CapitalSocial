@@ -18,6 +18,7 @@ class ProfileManagerTests: XCTestCase {
     func test_retrieveUserStatus_ShouldReturn_UserStatus() {
         /// Given
         let sut = ProfileManager.shared()
+        let _ = KeychainWrapper.standard.removeObject(forKey: "CapitalSocialUserToken")
         
         /// When
         let status = sut.retrieveUserStatus()
