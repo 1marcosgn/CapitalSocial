@@ -12,7 +12,37 @@
 		7F66D9A221CF71FD006A75C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66D9A021CF71FD006A75C9 /* Main.storyboard */; };
 		7F66D9A421CF71FE006A75C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F66D9A321CF71FE006A75C9 /* Assets.xcassets */; };
 		7F66D9A721CF71FE006A75C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66D9A521CF71FE006A75C9 /* LaunchScreen.storyboard */; };
-		7F66D9B221CF71FE006A75C9 /* CapitalSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9B121CF71FE006A75C9 /* CapitalSocialTests.swift */; };
+		7F66D9C421CF7792006A75C9 /* PromotionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9C321CF7792006A75C9 /* PromotionProtocol.swift */; };
+		7F66D9C521CF7792006A75C9 /* PromotionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9C321CF7792006A75C9 /* PromotionProtocol.swift */; };
+		7F66D9C721CF7858006A75C9 /* Promotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9C621CF7858006A75C9 /* Promotion.swift */; };
+		7F66D9C821CF7858006A75C9 /* Promotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9C621CF7858006A75C9 /* Promotion.swift */; };
+		7F66D9CA21CF78C8006A75C9 /* PromotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9C921CF78C8006A75C9 /* PromotionTests.swift */; };
+		7F66D9CC21CF7BC5006A75C9 /* PromotionsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9CB21CF7BC5006A75C9 /* PromotionsFactory.swift */; };
+		7F66D9CD21CF7BC5006A75C9 /* PromotionsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9CB21CF7BC5006A75C9 /* PromotionsFactory.swift */; };
+		7F66D9CF21CF7F0C006A75C9 /* PromotionsFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9CE21CF7F0C006A75C9 /* PromotionsFactoryTests.swift */; };
+		7F66D9D121CF816C006A75C9 /* DisplayPromotionsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9D021CF816C006A75C9 /* DisplayPromotionsProtocol.swift */; };
+		7F66D9D221CF816C006A75C9 /* DisplayPromotionsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9D021CF816C006A75C9 /* DisplayPromotionsProtocol.swift */; };
+		7F66D9D521CF826F006A75C9 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9D421CF826F006A75C9 /* Location.swift */; };
+		7F66D9D621CF826F006A75C9 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9D421CF826F006A75C9 /* Location.swift */; };
+		7F66D9D821CF8330006A75C9 /* LocationsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9D721CF8330006A75C9 /* LocationsFactory.swift */; };
+		7F66D9D921CF8330006A75C9 /* LocationsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9D721CF8330006A75C9 /* LocationsFactory.swift */; };
+		7F66D9DE21CF8508006A75C9 /* LocationsFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9DD21CF8508006A75C9 /* LocationsFactoryTests.swift */; };
+		7F66D9E121D00EBF006A75C9 /* PromotionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9E021D00EBF006A75C9 /* PromotionDetailViewModel.swift */; };
+		7F66D9E221D00EBF006A75C9 /* PromotionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9E021D00EBF006A75C9 /* PromotionDetailViewModel.swift */; };
+		7F66D9E721D032B9006A75C9 /* PromotionDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9E621D032B9006A75C9 /* PromotionDetailViewModelTests.swift */; };
+		7F66D9E921D0361D006A75C9 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9E821D0361D006A75C9 /* MapViewModel.swift */; };
+		7F66D9EA21D0361D006A75C9 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9E821D0361D006A75C9 /* MapViewModel.swift */; };
+		7F66D9ED21D03765006A75C9 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F66D9EC21D03765006A75C9 /* Locations.plist */; };
+		7F66D9EF21D039A9006A75C9 /* MapViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9EE21D039A9006A75C9 /* MapViewModelTests.swift */; };
+		7F66D9F121D05661006A75C9 /* PromotionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9F021D05661006A75C9 /* PromotionsViewModel.swift */; };
+		7F66D9F221D05661006A75C9 /* PromotionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9F021D05661006A75C9 /* PromotionsViewModel.swift */; };
+		7F66D9F421D05762006A75C9 /* JSONFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9F321D05762006A75C9 /* JSONFormatter.swift */; };
+		7F66D9F521D05762006A75C9 /* JSONFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9F321D05762006A75C9 /* JSONFormatter.swift */; };
+		7F66D9F821D05A60006A75C9 /* Promotions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F66D9F721D05A5F006A75C9 /* Promotions.json */; };
+		7F66D9FA21D05A9C006A75C9 /* JSONFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9F921D05A9C006A75C9 /* JSONFormatterTests.swift */; };
+		7F66D9FC21D07F4B006A75C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9FB21D07F4B006A75C9 /* Constants.swift */; };
+		7F66D9FD21D07F4B006A75C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9FB21D07F4B006A75C9 /* Constants.swift */; };
+		7F66D9FF21D08172006A75C9 /* PromotionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9FE21D08172006A75C9 /* PromotionsViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +64,27 @@
 		7F66D9A621CF71FE006A75C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F66D9A821CF71FE006A75C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F66D9AD21CF71FE006A75C9 /* CapitalSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapitalSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F66D9B121CF71FE006A75C9 /* CapitalSocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalSocialTests.swift; sourceTree = "<group>"; };
 		7F66D9B321CF71FE006A75C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F66D9C321CF7792006A75C9 /* PromotionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionProtocol.swift; sourceTree = "<group>"; };
+		7F66D9C621CF7858006A75C9 /* Promotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promotion.swift; sourceTree = "<group>"; };
+		7F66D9C921CF78C8006A75C9 /* PromotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionTests.swift; sourceTree = "<group>"; };
+		7F66D9CB21CF7BC5006A75C9 /* PromotionsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsFactory.swift; sourceTree = "<group>"; };
+		7F66D9CE21CF7F0C006A75C9 /* PromotionsFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsFactoryTests.swift; sourceTree = "<group>"; };
+		7F66D9D021CF816C006A75C9 /* DisplayPromotionsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPromotionsProtocol.swift; sourceTree = "<group>"; };
+		7F66D9D421CF826F006A75C9 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		7F66D9D721CF8330006A75C9 /* LocationsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsFactory.swift; sourceTree = "<group>"; };
+		7F66D9DD21CF8508006A75C9 /* LocationsFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsFactoryTests.swift; sourceTree = "<group>"; };
+		7F66D9E021D00EBF006A75C9 /* PromotionDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionDetailViewModel.swift; sourceTree = "<group>"; };
+		7F66D9E621D032B9006A75C9 /* PromotionDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionDetailViewModelTests.swift; sourceTree = "<group>"; };
+		7F66D9E821D0361D006A75C9 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		7F66D9EC21D03765006A75C9 /* Locations.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
+		7F66D9EE21D039A9006A75C9 /* MapViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModelTests.swift; sourceTree = "<group>"; };
+		7F66D9F021D05661006A75C9 /* PromotionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsViewModel.swift; sourceTree = "<group>"; };
+		7F66D9F321D05762006A75C9 /* JSONFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFormatter.swift; sourceTree = "<group>"; };
+		7F66D9F721D05A5F006A75C9 /* Promotions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Promotions.json; sourceTree = "<group>"; };
+		7F66D9F921D05A9C006A75C9 /* JSONFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFormatterTests.swift; sourceTree = "<group>"; };
+		7F66D9FB21D07F4B006A75C9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7F66D9FE21D08172006A75C9 /* PromotionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +126,14 @@
 		7F66D99B21CF71FD006A75C9 /* CapitalSocial */ = {
 			isa = PBXGroup;
 			children = (
+				7F66D9F621D05900006A75C9 /* Resources */,
+				7F66D9EB21D03728006A75C9 /* Configuration */,
+				7F66D9C221CF7743006A75C9 /* Services */,
+				7F66D9C121CF7740006A75C9 /* Models */,
+				7F66D9C021CF773D006A75C9 /* Views */,
+				7F66D9BF21CF773A006A75C9 /* Controllers */,
+				7F66D9BE21CF7735006A75C9 /* Protocols */,
+				7F66D9BD21CF7732006A75C9 /* Utilities */,
 				7F66D99C21CF71FD006A75C9 /* AppDelegate.swift */,
 				7F66D99E21CF71FD006A75C9 /* ViewController.swift */,
 				7F66D9A021CF71FD006A75C9 /* Main.storyboard */,
@@ -90,10 +147,85 @@
 		7F66D9B021CF71FE006A75C9 /* CapitalSocialTests */ = {
 			isa = PBXGroup;
 			children = (
-				7F66D9B121CF71FE006A75C9 /* CapitalSocialTests.swift */,
 				7F66D9B321CF71FE006A75C9 /* Info.plist */,
+				7F66D9C921CF78C8006A75C9 /* PromotionTests.swift */,
+				7F66D9CE21CF7F0C006A75C9 /* PromotionsFactoryTests.swift */,
+				7F66D9DD21CF8508006A75C9 /* LocationsFactoryTests.swift */,
+				7F66D9E621D032B9006A75C9 /* PromotionDetailViewModelTests.swift */,
+				7F66D9EE21D039A9006A75C9 /* MapViewModelTests.swift */,
+				7F66D9F921D05A9C006A75C9 /* JSONFormatterTests.swift */,
+				7F66D9FE21D08172006A75C9 /* PromotionsViewModelTests.swift */,
 			);
 			path = CapitalSocialTests;
+			sourceTree = "<group>";
+		};
+		7F66D9BD21CF7732006A75C9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7F66D9CB21CF7BC5006A75C9 /* PromotionsFactory.swift */,
+				7F66D9D721CF8330006A75C9 /* LocationsFactory.swift */,
+				7F66D9F321D05762006A75C9 /* JSONFormatter.swift */,
+				7F66D9FB21D07F4B006A75C9 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7F66D9BE21CF7735006A75C9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7F66D9C321CF7792006A75C9 /* PromotionProtocol.swift */,
+				7F66D9D021CF816C006A75C9 /* DisplayPromotionsProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7F66D9BF21CF773A006A75C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7F66D9C021CF773D006A75C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F66D9E021D00EBF006A75C9 /* PromotionDetailViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7F66D9C121CF7740006A75C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F66D9C621CF7858006A75C9 /* Promotion.swift */,
+				7F66D9D421CF826F006A75C9 /* Location.swift */,
+				7F66D9E821D0361D006A75C9 /* MapViewModel.swift */,
+				7F66D9F021D05661006A75C9 /* PromotionsViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F66D9C221CF7743006A75C9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7F66D9EB21D03728006A75C9 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				7F66D9EC21D03765006A75C9 /* Locations.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		7F66D9F621D05900006A75C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F66D9F721D05A5F006A75C9 /* Promotions.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +311,9 @@
 			files = (
 				7F66D9A721CF71FE006A75C9 /* LaunchScreen.storyboard in Resources */,
 				7F66D9A421CF71FE006A75C9 /* Assets.xcassets in Resources */,
+				7F66D9ED21D03765006A75C9 /* Locations.plist in Resources */,
 				7F66D9A221CF71FD006A75C9 /* Main.storyboard in Resources */,
+				7F66D9F821D05A60006A75C9 /* Promotions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +331,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F66D9CC21CF7BC5006A75C9 /* PromotionsFactory.swift in Sources */,
+				7F66D9E921D0361D006A75C9 /* MapViewModel.swift in Sources */,
+				7F66D9E121D00EBF006A75C9 /* PromotionDetailViewModel.swift in Sources */,
 				7F66D99F21CF71FD006A75C9 /* ViewController.swift in Sources */,
+				7F66D9F121D05661006A75C9 /* PromotionsViewModel.swift in Sources */,
+				7F66D9C721CF7858006A75C9 /* Promotion.swift in Sources */,
+				7F66D9C421CF7792006A75C9 /* PromotionProtocol.swift in Sources */,
+				7F66D9FC21D07F4B006A75C9 /* Constants.swift in Sources */,
+				7F66D9D121CF816C006A75C9 /* DisplayPromotionsProtocol.swift in Sources */,
+				7F66D9F421D05762006A75C9 /* JSONFormatter.swift in Sources */,
+				7F66D9D821CF8330006A75C9 /* LocationsFactory.swift in Sources */,
 				7F66D99D21CF71FD006A75C9 /* AppDelegate.swift in Sources */,
+				7F66D9D521CF826F006A75C9 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +351,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F66D9B221CF71FE006A75C9 /* CapitalSocialTests.swift in Sources */,
+				7F66D9F221D05661006A75C9 /* PromotionsViewModel.swift in Sources */,
+				7F66D9FD21D07F4B006A75C9 /* Constants.swift in Sources */,
+				7F66D9CD21CF7BC5006A75C9 /* PromotionsFactory.swift in Sources */,
+				7F66D9CF21CF7F0C006A75C9 /* PromotionsFactoryTests.swift in Sources */,
+				7F66D9CA21CF78C8006A75C9 /* PromotionTests.swift in Sources */,
+				7F66D9FA21D05A9C006A75C9 /* JSONFormatterTests.swift in Sources */,
+				7F66D9FF21D08172006A75C9 /* PromotionsViewModelTests.swift in Sources */,
+				7F66D9C521CF7792006A75C9 /* PromotionProtocol.swift in Sources */,
+				7F66D9D221CF816C006A75C9 /* DisplayPromotionsProtocol.swift in Sources */,
+				7F66D9E221D00EBF006A75C9 /* PromotionDetailViewModel.swift in Sources */,
+				7F66D9E721D032B9006A75C9 /* PromotionDetailViewModelTests.swift in Sources */,
+				7F66D9F521D05762006A75C9 /* JSONFormatter.swift in Sources */,
+				7F66D9D921CF8330006A75C9 /* LocationsFactory.swift in Sources */,
+				7F66D9DE21CF8508006A75C9 /* LocationsFactoryTests.swift in Sources */,
+				7F66D9C821CF7858006A75C9 /* Promotion.swift in Sources */,
+				7F66D9D621CF826F006A75C9 /* Location.swift in Sources */,
+				7F66D9EA21D0361D006A75C9 /* MapViewModel.swift in Sources */,
+				7F66D9EF21D039A9006A75C9 /* MapViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YXC4836V89;
 				INFOPLIST_FILE = CapitalSocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +544,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YXC4836V89;
 				INFOPLIST_FILE = CapitalSocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
