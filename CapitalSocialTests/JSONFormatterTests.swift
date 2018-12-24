@@ -21,7 +21,7 @@ class JSONFormatterTests: XCTestCase {
         XCTAssertNotNil(object, "object should not be nil")
         XCTAssertNotNil(object?["zonafitness"], "This object should be part of the json")
         XCTAssertNotNil(dictionary, "Dictionary should not be nil")
-        XCTAssertEqual(dictionary?["name"] as? String, "Zona Fitness", "The name should match")
+        XCTAssertEqual(dictionary?["title"] as? String, "Zona Fitness", "The name should match")
     }
 }
 

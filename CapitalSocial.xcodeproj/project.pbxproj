@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F16387921D1065F0076D3CA /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F16387821D1065E0076D3CA /* SDWebImage.framework */; };
+		7F16387B21D1077A0076D3CA /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F16387A21D1077A0076D3CA /* placeholder.png */; };
 		7F66D99D21CF71FD006A75C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D99C21CF71FD006A75C9 /* AppDelegate.swift */; };
-		7F66D99F21CF71FD006A75C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D99E21CF71FD006A75C9 /* ViewController.swift */; };
 		7F66D9A221CF71FD006A75C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66D9A021CF71FD006A75C9 /* Main.storyboard */; };
 		7F66D9A421CF71FE006A75C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F66D9A321CF71FE006A75C9 /* Assets.xcassets */; };
 		7F66D9A721CF71FE006A75C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66D9A521CF71FE006A75C9 /* LaunchScreen.storyboard */; };
@@ -50,6 +51,24 @@
 		7F7C2F4821D0D11100859A34 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7C2F4621D0CF5300859A34 /* SwiftKeychainWrapper.framework */; };
 		7F7C2F4D21D0D87A00859A34 /* RouterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F4C21D0D87A00859A34 /* RouterViewModel.swift */; };
 		7F7C2F4E21D0D87A00859A34 /* RouterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F4C21D0D87A00859A34 /* RouterViewModel.swift */; };
+		7F7C2F5421D0DF4100859A34 /* PromotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F5221D0DF4100859A34 /* PromotionsViewController.swift */; };
+		7F7C2F5521D0DF4100859A34 /* PromotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F5221D0DF4100859A34 /* PromotionsViewController.swift */; };
+		7F7C2F5A21D0DFE600859A34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F5821D0DFE600859A34 /* LoginViewController.swift */; };
+		7F7C2F5B21D0DFE600859A34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F5821D0DFE600859A34 /* LoginViewController.swift */; };
+		7F7C2F5C21D0DFE600859A34 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C2F5921D0DFE600859A34 /* LoginViewController.xib */; };
+		7F7C2F5D21D0DFE600859A34 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C2F5921D0DFE600859A34 /* LoginViewController.xib */; };
+		7F7C2F6021D0E35500859A34 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F5E21D0E35500859A34 /* MapViewController.swift */; };
+		7F7C2F6121D0E35500859A34 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F5E21D0E35500859A34 /* MapViewController.swift */; };
+		7F7C2F6221D0E35500859A34 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C2F5F21D0E35500859A34 /* MapViewController.xib */; };
+		7F7C2F6321D0E35500859A34 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C2F5F21D0E35500859A34 /* MapViewController.xib */; };
+		7F7C2F6621D0E38700859A34 /* PromotionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F6421D0E38700859A34 /* PromotionDetailViewController.swift */; };
+		7F7C2F6721D0E38700859A34 /* PromotionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F6421D0E38700859A34 /* PromotionDetailViewController.swift */; };
+		7F7C2F6821D0E38700859A34 /* PromotionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C2F6521D0E38700859A34 /* PromotionDetailViewController.xib */; };
+		7F7C2F6921D0E38700859A34 /* PromotionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C2F6521D0E38700859A34 /* PromotionDetailViewController.xib */; };
+		7F7C2F6C21D0F64000859A34 /* PromotionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F6A21D0F64000859A34 /* PromotionCollectionViewCell.swift */; };
+		7F7C2F6D21D0F64000859A34 /* PromotionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F6A21D0F64000859A34 /* PromotionCollectionViewCell.swift */; };
+		7F7C2F6E21D0F64000859A34 /* PromotionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C2F6B21D0F64000859A34 /* PromotionCollectionViewCell.xib */; };
+		7F7C2F6F21D0F64000859A34 /* PromotionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C2F6B21D0F64000859A34 /* PromotionCollectionViewCell.xib */; };
 		7F7EC92721D0B09A0011F1CD /* ServicesErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EC92621D0B09A0011F1CD /* ServicesErrorHandler.swift */; };
 		7F7EC92821D0B09A0011F1CD /* ServicesErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EC92621D0B09A0011F1CD /* ServicesErrorHandler.swift */; };
 		7FF118B021D0BBE30064DDBE /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF118AF21D0BBE30064DDBE /* LogInViewModel.swift */; };
@@ -75,9 +94,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F16387821D1065E0076D3CA /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		7F16387A21D1077A0076D3CA /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		7F66D99921CF71FD006A75C9 /* CapitalSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapitalSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F66D99C21CF71FD006A75C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7F66D99E21CF71FD006A75C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7F66D9A121CF71FD006A75C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F66D9A321CF71FE006A75C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F66D9A621CF71FE006A75C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,6 +128,15 @@
 		7F66DA0721D09615006A75C9 /* ServicesImplementerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesImplementerTests.swift; sourceTree = "<group>"; };
 		7F7C2F4621D0CF5300859A34 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = Carthage/Build/iOS/SwiftKeychainWrapper.framework; sourceTree = "<group>"; };
 		7F7C2F4C21D0D87A00859A34 /* RouterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewModel.swift; sourceTree = "<group>"; };
+		7F7C2F5221D0DF4100859A34 /* PromotionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsViewController.swift; sourceTree = "<group>"; };
+		7F7C2F5821D0DFE600859A34 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7F7C2F5921D0DFE600859A34 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		7F7C2F5E21D0E35500859A34 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7F7C2F5F21D0E35500859A34 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		7F7C2F6421D0E38700859A34 /* PromotionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionDetailViewController.swift; sourceTree = "<group>"; };
+		7F7C2F6521D0E38700859A34 /* PromotionDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromotionDetailViewController.xib; sourceTree = "<group>"; };
+		7F7C2F6A21D0F64000859A34 /* PromotionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionCollectionViewCell.swift; sourceTree = "<group>"; };
+		7F7C2F6B21D0F64000859A34 /* PromotionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromotionCollectionViewCell.xib; sourceTree = "<group>"; };
 		7F7EC92621D0B09A0011F1CD /* ServicesErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesErrorHandler.swift; sourceTree = "<group>"; };
 		7FF118AF21D0BBE30064DDBE /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
 		7FF118B221D0BEB90064DDBE /* LogInViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModelTests.swift; sourceTree = "<group>"; };
@@ -123,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F7C2F4721D0CF5300859A34 /* SwiftKeychainWrapper.framework in Frameworks */,
+				7F16387921D1065F0076D3CA /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +190,6 @@
 			isa = PBXGroup;
 			children = (
 				7F66D9F621D05900006A75C9 /* Resources */,
-				7F66D9EB21D03728006A75C9 /* Configuration */,
 				7F66D9C221CF7743006A75C9 /* Services */,
 				7F66D9C121CF7740006A75C9 /* Models */,
 				7F66D9C021CF773D006A75C9 /* Views */,
@@ -168,10 +197,7 @@
 				7F66D9BE21CF7735006A75C9 /* Protocols */,
 				7F66D9BD21CF7732006A75C9 /* Utilities */,
 				7F66D99C21CF71FD006A75C9 /* AppDelegate.swift */,
-				7F66D99E21CF71FD006A75C9 /* ViewController.swift */,
-				7F66D9A021CF71FD006A75C9 /* Main.storyboard */,
 				7F66D9A321CF71FE006A75C9 /* Assets.xcassets */,
-				7F66D9A521CF71FE006A75C9 /* LaunchScreen.storyboard */,
 				7F66D9A821CF71FE006A75C9 /* Info.plist */,
 			);
 			path = CapitalSocial;
@@ -221,6 +247,11 @@
 		7F66D9BF21CF773A006A75C9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7F7C2F6A21D0F64000859A34 /* PromotionCollectionViewCell.swift */,
+				7F7C2F5221D0DF4100859A34 /* PromotionsViewController.swift */,
+				7F7C2F5821D0DFE600859A34 /* LoginViewController.swift */,
+				7F7C2F5E21D0E35500859A34 /* MapViewController.swift */,
+				7F7C2F6421D0E38700859A34 /* PromotionDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -228,7 +259,12 @@
 		7F66D9C021CF773D006A75C9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7F66D9E021D00EBF006A75C9 /* PromotionDetailViewModel.swift */,
+				7F66D9A521CF71FE006A75C9 /* LaunchScreen.storyboard */,
+				7F66D9A021CF71FD006A75C9 /* Main.storyboard */,
+				7F7C2F5921D0DFE600859A34 /* LoginViewController.xib */,
+				7F7C2F5F21D0E35500859A34 /* MapViewController.xib */,
+				7F7C2F6521D0E38700859A34 /* PromotionDetailViewController.xib */,
+				7F7C2F6B21D0F64000859A34 /* PromotionCollectionViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -236,13 +272,14 @@
 		7F66D9C121CF7740006A75C9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7F66D9F021D05661006A75C9 /* PromotionsViewModel.swift */,
 				7F66D9C621CF7858006A75C9 /* Promotion.swift */,
 				7F66D9D421CF826F006A75C9 /* Location.swift */,
-				7F66D9E821D0361D006A75C9 /* MapViewModel.swift */,
-				7F66D9F021D05661006A75C9 /* PromotionsViewModel.swift */,
 				7FF118AF21D0BBE30064DDBE /* LogInViewModel.swift */,
-				7FF118B721D0C20F0064DDBE /* ProfileManager.swift */,
 				7F7C2F4C21D0D87A00859A34 /* RouterViewModel.swift */,
+				7FF118B721D0C20F0064DDBE /* ProfileManager.swift */,
+				7F66D9E821D0361D006A75C9 /* MapViewModel.swift */,
+				7F66D9E021D00EBF006A75C9 /* PromotionDetailViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -255,18 +292,12 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		7F66D9EB21D03728006A75C9 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				7F66D9EC21D03765006A75C9 /* Locations.plist */,
-			);
-			path = Configuration;
-			sourceTree = "<group>";
-		};
 		7F66D9F621D05900006A75C9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7F16387A21D1077A0076D3CA /* placeholder.png */,
 				7F66D9F721D05A5F006A75C9 /* Promotions.json */,
+				7F66D9EC21D03765006A75C9 /* Locations.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -274,6 +305,7 @@
 		7F66DA0321D09230006A75C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7F16387821D1065E0076D3CA /* SDWebImage.framework */,
 				7F7C2F4621D0CF5300859A34 /* SwiftKeychainWrapper.framework */,
 			);
 			name = Frameworks;
@@ -362,9 +394,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F66D9A721CF71FE006A75C9 /* LaunchScreen.storyboard in Resources */,
+				7F7C2F6821D0E38700859A34 /* PromotionDetailViewController.xib in Resources */,
 				7F66D9A421CF71FE006A75C9 /* Assets.xcassets in Resources */,
+				7F16387B21D1077A0076D3CA /* placeholder.png in Resources */,
 				7F66D9ED21D03765006A75C9 /* Locations.plist in Resources */,
 				7F66D9A221CF71FD006A75C9 /* Main.storyboard in Resources */,
+				7F7C2F6221D0E35500859A34 /* MapViewController.xib in Resources */,
+				7F7C2F5C21D0DFE600859A34 /* LoginViewController.xib in Resources */,
+				7F7C2F6E21D0F64000859A34 /* PromotionCollectionViewCell.xib in Resources */,
 				7F66D9F821D05A60006A75C9 /* Promotions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +410,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7C2F5D21D0DFE600859A34 /* LoginViewController.xib in Resources */,
+				7F7C2F6321D0E35500859A34 /* MapViewController.xib in Resources */,
+				7F7C2F6F21D0F64000859A34 /* PromotionCollectionViewCell.xib in Resources */,
+				7F7C2F6921D0E38700859A34 /* PromotionDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +429,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftKeychainWrapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
 			);
 			outputFileListPaths = (
 			);
@@ -410,19 +452,23 @@
 				7F66DA0121D08E5A006A75C9 /* ServicesImplementer.swift in Sources */,
 				7F66D9E121D00EBF006A75C9 /* PromotionDetailViewModel.swift in Sources */,
 				7FF118B021D0BBE30064DDBE /* LogInViewModel.swift in Sources */,
-				7F66D99F21CF71FD006A75C9 /* ViewController.swift in Sources */,
 				7F66D9F121D05661006A75C9 /* PromotionsViewModel.swift in Sources */,
 				7FF118B821D0C20F0064DDBE /* ProfileManager.swift in Sources */,
 				7FF118B521D0C1850064DDBE /* KeyChainWrapperProtocol.swift in Sources */,
+				7F7C2F6621D0E38700859A34 /* PromotionDetailViewController.swift in Sources */,
 				7F66D9C721CF7858006A75C9 /* Promotion.swift in Sources */,
+				7F7C2F5A21D0DFE600859A34 /* LoginViewController.swift in Sources */,
+				7F7C2F6021D0E35500859A34 /* MapViewController.swift in Sources */,
 				7F66D9C421CF7792006A75C9 /* PromotionProtocol.swift in Sources */,
 				7F66D9FC21D07F4B006A75C9 /* Constants.swift in Sources */,
 				7F66D9D121CF816C006A75C9 /* DisplayPromotionsProtocol.swift in Sources */,
 				7FF118BB21D0C2F80064DDBE /* UserStatus.swift in Sources */,
 				7F7EC92721D0B09A0011F1CD /* ServicesErrorHandler.swift in Sources */,
+				7F7C2F5421D0DF4100859A34 /* PromotionsViewController.swift in Sources */,
 				7F66D9F421D05762006A75C9 /* JSONFormatter.swift in Sources */,
 				7F66D9D821CF8330006A75C9 /* LocationsFactory.swift in Sources */,
 				7F66D99D21CF71FD006A75C9 /* AppDelegate.swift in Sources */,
+				7F7C2F6C21D0F64000859A34 /* PromotionCollectionViewCell.swift in Sources */,
 				7F66D9D521CF826F006A75C9 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,18 +477,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7C2F6121D0E35500859A34 /* MapViewController.swift in Sources */,
 				7F66D9F221D05661006A75C9 /* PromotionsViewModel.swift in Sources */,
 				7FF118B921D0C20F0064DDBE /* ProfileManager.swift in Sources */,
 				7F66D9FD21D07F4B006A75C9 /* Constants.swift in Sources */,
 				7FF118B121D0BBE30064DDBE /* LogInViewModel.swift in Sources */,
 				7F66D9CD21CF7BC5006A75C9 /* PromotionsFactory.swift in Sources */,
+				7F7C2F5521D0DF4100859A34 /* PromotionsViewController.swift in Sources */,
 				7F66D9CF21CF7F0C006A75C9 /* PromotionsFactoryTests.swift in Sources */,
 				7F66D9CA21CF78C8006A75C9 /* PromotionTests.swift in Sources */,
 				7FF118B321D0BEB90064DDBE /* LogInViewModelTests.swift in Sources */,
 				7F66D9FA21D05A9C006A75C9 /* JSONFormatterTests.swift in Sources */,
 				7F66D9FF21D08172006A75C9 /* PromotionsViewModelTests.swift in Sources */,
 				7F66D9C521CF7792006A75C9 /* PromotionProtocol.swift in Sources */,
+				7F7C2F5B21D0DFE600859A34 /* LoginViewController.swift in Sources */,
 				7F66D9D221CF816C006A75C9 /* DisplayPromotionsProtocol.swift in Sources */,
+				7F7C2F6721D0E38700859A34 /* PromotionDetailViewController.swift in Sources */,
 				7F66D9E221D00EBF006A75C9 /* PromotionDetailViewModel.swift in Sources */,
 				7F7C2F4E21D0D87A00859A34 /* RouterViewModel.swift in Sources */,
 				7FF118C121D0C72B0064DDBE /* ProfileManagerTests.swift in Sources */,
@@ -458,6 +508,7 @@
 				7FF118BC21D0C2F80064DDBE /* UserStatus.swift in Sources */,
 				7F66DA0821D09615006A75C9 /* ServicesImplementerTests.swift in Sources */,
 				7F66D9EF21D039A9006A75C9 /* MapViewModelTests.swift in Sources */,
+				7F7C2F6D21D0F64000859A34 /* PromotionCollectionViewCell.swift in Sources */,
 				7FF118B621D0C1850064DDBE /* KeyChainWrapperProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
