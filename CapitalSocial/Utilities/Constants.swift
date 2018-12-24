@@ -6,6 +6,8 @@
 //  Copyright © 2018 Marcos Garcia. All rights reserved.
 //
 
+import UIKit
+
 public struct Constants {
     static let latitude = "lat"
     static let longitude = "long"
@@ -25,5 +27,10 @@ public struct Constants {
 
 public struct ServiceEndPoints {
     static let login = "https://agentemovil.pagatodo.com/AgenteMovil.svc/agMov/login"
+}
+
+public struct Colors {
+    static let pinkLigthColorCdmx = UIColor.init(red: 255.0/255.0, green: 117.0/255.0, blue: 188.0/255.0, alpha: 1.0)
+    static let pinkColorCdmx = UIColor.init(red: 253.0/255.0, green: 51.0/255.0, blue: 168.0/255.0, alpha: 1.0)
 }
 

@@ -16,6 +16,7 @@ class LoginViewController: UIViewController, QRCodeReaderViewControllerDelegate 
     @IBOutlet weak var userTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var registerButton: UIButton!
     
     lazy var readerVC: QRCodeReaderViewController = {
         let builder = QRCodeReaderViewControllerBuilder {
@@ -29,22 +30,36 @@ class LoginViewController: UIViewController, QRCodeReaderViewControllerDelegate 
     @IBAction func openQRReader(_ sender: Any) {
         if QRCodeReader.isAvailable() {
             displayQRCodeReader()
+        } else {
+            let dict = ["error":["title":"Error", "message": "QRCodeReader No Soportado"]]
+            self.displayErrorAlertWith(dict)
         }
 
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.activityIndicator.isHidden = true
+        //registerButton.layer.borderColor = UIColor.init(red: 255.0/255.0, green: 117.0/255.0, blue: 188.0/255.0, alpha: 1.0).cgColor
+        registerButton.layer.borderColor = Colors.pinkLigthColorCdmx.cgColor
     }
     
     @IBAction func performLogIn(_ sender: Any) {
-        logIn()
+        
+        if (self.userTextField.text?.count)! > 0 &&
+            (self.passwordTextField.text?.count)! > 0 {
+            logIn()
+        } else {
+            let dict = ["error":["title":"Error", "message": "Ingrese usuario y contraseña"]]
+            self.displayErrorAlertWith(dict)
+        }
     }
 }
 
 extension LoginViewController {
     
     func logIn() {
+        activityIndicator.isHidden = false
         activityIndicator.startAnimating()
         activityIndicator.hidesWhenStopped = true
         
@@ -131,4 +146,3 @@ extension LoginViewController {
         dismiss(animated: true, completion: nil)
     }
 }
-

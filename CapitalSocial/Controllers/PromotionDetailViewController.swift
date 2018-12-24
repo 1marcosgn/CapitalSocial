@@ -21,6 +21,8 @@ class PromotionDetailViewController: UIViewController {
         testLabel.text = self.promotion.title
         testDescription.text = self.promotion.description
         testImage.sd_setImage(with: self.promotion.imageUrl, placeholderImage: UIImage(named: "placeholder.png"))
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Share", style: .plain, target: self, action: #selector(share))
     }
 
     convenience init(promotion: Promotion) {
@@ -28,7 +30,7 @@ class PromotionDetailViewController: UIViewController {
         self.promotion = promotion
     }
     
-    @IBAction func share(_ sender: Any) {
+    @objc func share() {
         
         let model = PromotionDetailViewModel.init(promotion: self.promotion)
         guard let activity = model.getSharePromotionActivityView() else {
@@ -39,8 +41,12 @@ class PromotionDetailViewController: UIViewController {
         
         if let popOver = activity.popoverPresentationController {
             popOver.sourceView = self.view
+            
+            let barButtonItem = self.navigationItem.rightBarButtonItem!
+            let buttonItemView = barButtonItem.value(forKey: "view") as? UIView
+            //var buttonItemSize = buttonItemView?.frame.origin
             //TODO: ADD THE RIGHT LOCATION FOR THE POP UP
-            //popOver.sourceRect =
+            popOver.sourceRect = CGRect(origin: (buttonItemView?.frame.origin)!, size: (buttonItemView?.frame.size)!)
             //popOver.barButtonItem
         }
         

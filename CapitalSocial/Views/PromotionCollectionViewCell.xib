@@ -11,22 +11,22 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CapitalCell" id="gTV-IL-0wX" customClass="PromotionCollectionViewCell" customModule="CapitalSocial" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="175" height="127"/>
+            <rect key="frame" x="0.0" y="0.0" width="202" height="127"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="175" height="127"/>
+                <rect key="frame" x="0.0" y="0.0" width="202" height="127"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bai-sq-p4v">
-                        <rect key="frame" x="0.0" y="0.0" width="175" height="88"/>
+                        <rect key="frame" x="0.0" y="0.0" width="202" height="88"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cinepolis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GuJ-5q-IaG">
-                        <rect key="frame" x="0.0" y="88" width="175" height="39"/>
-                        <color key="backgroundColor" red="0.0" green="0.57647058819999997" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <rect key="frame" x="0.0" y="88" width="202" height="39"/>
+                        <color key="backgroundColor" red="0.90220528841018677" green="0.94898909330368042" blue="0.94902890920639038" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="39" id="4gO-ff-UdF"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -41,12 +41,12 @@
                 <constraint firstItem="GuJ-5q-IaG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="va2-zH-5UI"/>
                 <constraint firstItem="Bai-sq-p4v" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vlK-TC-Ed5"/>
             </constraints>
-            <size key="customSize" width="181" height="151"/>
+            <size key="customSize" width="208" height="151"/>
             <connections>
                 <outlet property="image" destination="Bai-sq-p4v" id="KBh-Bc-a1Q"/>
                 <outlet property="title" destination="GuJ-5q-IaG" id="JLo-jJ-Bct"/>
             </connections>
-            <point key="canvasLocation" x="-272.80000000000001" y="124.58770614692655"/>
+            <point key="canvasLocation" x="-251.19999999999999" y="124.58770614692655"/>
         </collectionViewCell>
     </objects>
 </document>
