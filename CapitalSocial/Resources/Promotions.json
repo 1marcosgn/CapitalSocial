@@ -1,0 +1,17 @@
+{
+    "cinepolis": {
+        "name": "Cinepolis",
+        "imageUrl": "https://user-images.githubusercontent.com/6865674/50037256-41f44300-ffc4-11e8-957d-4ac2254c4867.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    },
+    "burgerking": {
+        "name": "Burger King",
+        "imageUrl": "https://pbs.twimg.com/profile_images/683850520528859136/D-t-BWGz_400x400.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    },
+    "zonafitness": {
+        "name": "Zona Fitness",
+        "imageUrl": "https://cdn-ami-drupal.heartyhosting.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/media/campus-muscle-trainint-partner-4.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in tortor non lorem mattis malesuada. Cras a lorem tristique, tincidunt dui id, molestie justo. Nam convallis risus euismod felis dignissim placerat. Nunc mollis sagittis ultricies. Aliquam ut placerat leo. In at tortor ut felis eleifend feugiat suscipit eu justo. Duis at dolor gravida, vestibulum orci id, aliquet est. Duis lobortis lorem eget consequat volutpat. Sed ut nunc sed magna varius dapibus ut ut ipsum. Donec et rhoncus elit. In ultricies pharetra augue, id posuere nulla. Integer eu ornare tellus. Aenean volutpat hendrerit neque, id varius nunc ornare faucibus. Integer cursus molestie leo, eget malesuada eros hendrerit dictum. Ut nisi ipsum, volutpat eu imperdiet eleifend, tristique eu turpis."
+    }
+}
