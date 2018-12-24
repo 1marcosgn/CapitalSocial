@@ -48,6 +48,8 @@
 		7F66DA0821D09615006A75C9 /* ServicesImplementerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66DA0721D09615006A75C9 /* ServicesImplementerTests.swift */; };
 		7F7C2F4721D0CF5300859A34 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7C2F4621D0CF5300859A34 /* SwiftKeychainWrapper.framework */; };
 		7F7C2F4821D0D11100859A34 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7C2F4621D0CF5300859A34 /* SwiftKeychainWrapper.framework */; };
+		7F7C2F4D21D0D87A00859A34 /* RouterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F4C21D0D87A00859A34 /* RouterViewModel.swift */; };
+		7F7C2F4E21D0D87A00859A34 /* RouterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2F4C21D0D87A00859A34 /* RouterViewModel.swift */; };
 		7F7EC92721D0B09A0011F1CD /* ServicesErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EC92621D0B09A0011F1CD /* ServicesErrorHandler.swift */; };
 		7F7EC92821D0B09A0011F1CD /* ServicesErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EC92621D0B09A0011F1CD /* ServicesErrorHandler.swift */; };
 		7FF118B021D0BBE30064DDBE /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF118AF21D0BBE30064DDBE /* LogInViewModel.swift */; };
@@ -105,6 +107,7 @@
 		7F66DA0021D08E5A006A75C9 /* ServicesImplementer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesImplementer.swift; sourceTree = "<group>"; };
 		7F66DA0721D09615006A75C9 /* ServicesImplementerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesImplementerTests.swift; sourceTree = "<group>"; };
 		7F7C2F4621D0CF5300859A34 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = Carthage/Build/iOS/SwiftKeychainWrapper.framework; sourceTree = "<group>"; };
+		7F7C2F4C21D0D87A00859A34 /* RouterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewModel.swift; sourceTree = "<group>"; };
 		7F7EC92621D0B09A0011F1CD /* ServicesErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesErrorHandler.swift; sourceTree = "<group>"; };
 		7FF118AF21D0BBE30064DDBE /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
 		7FF118B221D0BEB90064DDBE /* LogInViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModelTests.swift; sourceTree = "<group>"; };
@@ -239,6 +242,7 @@
 				7F66D9F021D05661006A75C9 /* PromotionsViewModel.swift */,
 				7FF118AF21D0BBE30064DDBE /* LogInViewModel.swift */,
 				7FF118B721D0C20F0064DDBE /* ProfileManager.swift */,
+				7F7C2F4C21D0D87A00859A34 /* RouterViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -401,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F66D9CC21CF7BC5006A75C9 /* PromotionsFactory.swift in Sources */,
+				7F7C2F4D21D0D87A00859A34 /* RouterViewModel.swift in Sources */,
 				7F66D9E921D0361D006A75C9 /* MapViewModel.swift in Sources */,
 				7F66DA0121D08E5A006A75C9 /* ServicesImplementer.swift in Sources */,
 				7F66D9E121D00EBF006A75C9 /* PromotionDetailViewModel.swift in Sources */,
@@ -439,6 +444,7 @@
 				7F66D9C521CF7792006A75C9 /* PromotionProtocol.swift in Sources */,
 				7F66D9D221CF816C006A75C9 /* DisplayPromotionsProtocol.swift in Sources */,
 				7F66D9E221D00EBF006A75C9 /* PromotionDetailViewModel.swift in Sources */,
+				7F7C2F4E21D0D87A00859A34 /* RouterViewModel.swift in Sources */,
 				7FF118C121D0C72B0064DDBE /* ProfileManagerTests.swift in Sources */,
 				7F7EC92821D0B09A0011F1CD /* ServicesErrorHandler.swift in Sources */,
 				7F66D9E721D032B9006A75C9 /* PromotionDetailViewModelTests.swift in Sources */,
