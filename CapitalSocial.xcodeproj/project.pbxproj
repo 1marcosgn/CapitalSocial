@@ -43,6 +43,11 @@
 		7F66D9FC21D07F4B006A75C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9FB21D07F4B006A75C9 /* Constants.swift */; };
 		7F66D9FD21D07F4B006A75C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9FB21D07F4B006A75C9 /* Constants.swift */; };
 		7F66D9FF21D08172006A75C9 /* PromotionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66D9FE21D08172006A75C9 /* PromotionsViewModelTests.swift */; };
+		7F66DA0121D08E5A006A75C9 /* ServicesImplementer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66DA0021D08E5A006A75C9 /* ServicesImplementer.swift */; };
+		7F66DA0221D08E5A006A75C9 /* ServicesImplementer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66DA0021D08E5A006A75C9 /* ServicesImplementer.swift */; };
+		7F66DA0821D09615006A75C9 /* ServicesImplementerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66DA0721D09615006A75C9 /* ServicesImplementerTests.swift */; };
+		7F7EC92721D0B09A0011F1CD /* ServicesErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EC92621D0B09A0011F1CD /* ServicesErrorHandler.swift */; };
+		7F7EC92821D0B09A0011F1CD /* ServicesErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EC92621D0B09A0011F1CD /* ServicesErrorHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +90,9 @@
 		7F66D9F921D05A9C006A75C9 /* JSONFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFormatterTests.swift; sourceTree = "<group>"; };
 		7F66D9FB21D07F4B006A75C9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7F66D9FE21D08172006A75C9 /* PromotionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsViewModelTests.swift; sourceTree = "<group>"; };
+		7F66DA0021D08E5A006A75C9 /* ServicesImplementer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesImplementer.swift; sourceTree = "<group>"; };
+		7F66DA0721D09615006A75C9 /* ServicesImplementerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesImplementerTests.swift; sourceTree = "<group>"; };
+		7F7EC92621D0B09A0011F1CD /* ServicesErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesErrorHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,7 @@
 				7F66D99B21CF71FD006A75C9 /* CapitalSocial */,
 				7F66D9B021CF71FE006A75C9 /* CapitalSocialTests */,
 				7F66D99A21CF71FD006A75C9 /* Products */,
+				7F66DA0321D09230006A75C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +164,7 @@
 				7F66D9EE21D039A9006A75C9 /* MapViewModelTests.swift */,
 				7F66D9F921D05A9C006A75C9 /* JSONFormatterTests.swift */,
 				7F66D9FE21D08172006A75C9 /* PromotionsViewModelTests.swift */,
+				7F66DA0721D09615006A75C9 /* ServicesImplementerTests.swift */,
 			);
 			path = CapitalSocialTests;
 			sourceTree = "<group>";
@@ -166,6 +176,7 @@
 				7F66D9D721CF8330006A75C9 /* LocationsFactory.swift */,
 				7F66D9F321D05762006A75C9 /* JSONFormatter.swift */,
 				7F66D9FB21D07F4B006A75C9 /* Constants.swift */,
+				7F7EC92621D0B09A0011F1CD /* ServicesErrorHandler.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -201,6 +212,7 @@
 				7F66D9D421CF826F006A75C9 /* Location.swift */,
 				7F66D9E821D0361D006A75C9 /* MapViewModel.swift */,
 				7F66D9F021D05661006A75C9 /* PromotionsViewModel.swift */,
+				7F66DA0021D08E5A006A75C9 /* ServicesImplementer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +240,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		7F66DA0321D09230006A75C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,6 +257,7 @@
 				7F66D99521CF71FD006A75C9 /* Sources */,
 				7F66D99621CF71FD006A75C9 /* Frameworks */,
 				7F66D99721CF71FD006A75C9 /* Resources */,
+				7F66DA0621D0924E006A75C9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -326,6 +346,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7F66DA0621D0924E006A75C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F66D99521CF71FD006A75C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -333,6 +373,7 @@
 			files = (
 				7F66D9CC21CF7BC5006A75C9 /* PromotionsFactory.swift in Sources */,
 				7F66D9E921D0361D006A75C9 /* MapViewModel.swift in Sources */,
+				7F66DA0121D08E5A006A75C9 /* ServicesImplementer.swift in Sources */,
 				7F66D9E121D00EBF006A75C9 /* PromotionDetailViewModel.swift in Sources */,
 				7F66D99F21CF71FD006A75C9 /* ViewController.swift in Sources */,
 				7F66D9F121D05661006A75C9 /* PromotionsViewModel.swift in Sources */,
@@ -340,6 +381,7 @@
 				7F66D9C421CF7792006A75C9 /* PromotionProtocol.swift in Sources */,
 				7F66D9FC21D07F4B006A75C9 /* Constants.swift in Sources */,
 				7F66D9D121CF816C006A75C9 /* DisplayPromotionsProtocol.swift in Sources */,
+				7F7EC92721D0B09A0011F1CD /* ServicesErrorHandler.swift in Sources */,
 				7F66D9F421D05762006A75C9 /* JSONFormatter.swift in Sources */,
 				7F66D9D821CF8330006A75C9 /* LocationsFactory.swift in Sources */,
 				7F66D99D21CF71FD006A75C9 /* AppDelegate.swift in Sources */,
@@ -361,13 +403,16 @@
 				7F66D9C521CF7792006A75C9 /* PromotionProtocol.swift in Sources */,
 				7F66D9D221CF816C006A75C9 /* DisplayPromotionsProtocol.swift in Sources */,
 				7F66D9E221D00EBF006A75C9 /* PromotionDetailViewModel.swift in Sources */,
+				7F7EC92821D0B09A0011F1CD /* ServicesErrorHandler.swift in Sources */,
 				7F66D9E721D032B9006A75C9 /* PromotionDetailViewModelTests.swift in Sources */,
 				7F66D9F521D05762006A75C9 /* JSONFormatter.swift in Sources */,
 				7F66D9D921CF8330006A75C9 /* LocationsFactory.swift in Sources */,
 				7F66D9DE21CF8508006A75C9 /* LocationsFactoryTests.swift in Sources */,
 				7F66D9C821CF7858006A75C9 /* Promotion.swift in Sources */,
+				7F66DA0221D08E5A006A75C9 /* ServicesImplementer.swift in Sources */,
 				7F66D9D621CF826F006A75C9 /* Location.swift in Sources */,
 				7F66D9EA21D0361D006A75C9 /* MapViewModel.swift in Sources */,
+				7F66DA0821D09615006A75C9 /* ServicesImplementerTests.swift in Sources */,
 				7F66D9EF21D039A9006A75C9 /* MapViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +569,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YXC4836V89;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CapitalSocial/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -543,6 +592,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YXC4836V89;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CapitalSocial/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
