@@ -34,6 +34,9 @@
                         <constraint firstAttribute="height" constant="30" id="KZP-bH-ueh"/>
                     </constraints>
                     <state key="normal" title="Escanea código QR"/>
+                    <connections>
+                        <action selector="openQRReader:" destination="-1" eventType="touchUpInside" id="WpT-8Q-8aP"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AR3-Z2-bfn">
                     <rect key="frame" x="56" y="382" width="262" height="30"/>

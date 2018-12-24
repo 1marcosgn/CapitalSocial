@@ -2,3 +2,4 @@
 
 github "jrendel/SwiftKeychainWrapper" ~> 3.0
 github "SDWebImage/SDWebImage" "4.4.3"
+github "yannickl/QRCodeReader.swift" >= 9.0.1
